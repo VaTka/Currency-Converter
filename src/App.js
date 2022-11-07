@@ -38,7 +38,7 @@ function App() {
     }
 
     function convertHeader() {
-        var rateUsd = info[toHeaderUsd];
+        var rateUsd = info[toHeaderUsd]
         var rateEur = info[toHeaderEur];
         setHeaderOutputUsd(1 * rateUsd);
         setHeaderOutputEur(1 * rateEur);
